@@ -8,7 +8,7 @@ Works on: **Nobara Linux** | **macOS**
 
 ```bash
 # One-liner (creates ~/.local/share/chezmoi and applies)
-sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply jordanpartridge
+sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply shadetheory
 ```
 
 Or step by step:
@@ -17,7 +17,7 @@ Or step by step:
 sh -c "$(curl -fsLS get.chezmoi.io)" -- -b ~/.local/bin
 
 # Clone and apply
-chezmoi init jordanpartridge
+chezmoi init shadetheory
 chezmoi apply
 ```
 
